@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container bg">
+  <h2>Table</h2>
+  <p>The .table-condensed class makes a table more compact by cutting cell padding in half:</p>                                    
+  <table class="table table-condensed">
+    <thead>
+      <tr>
+        <th>customerID</th>
+        <th>name</th>
+        <th>username</th>
+        <th>email</th>
+        <th>date</th>
+        <th>address</th>
+        <th>delete</th>
+        <th>edit</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let customer of listUser">
+        <td>{{customer.customerID}}</td>
+        <td>{{customer.name}}</td>
+        <td>{{customer.username}}</td>
+        <td>{{customer.email}}</td>
+        <td>{{customer.date}}</td>
+        <td>{{customer.address}}</td>
+        <td><button class="btn btn-danger mx-4" (click)="deleteCustomer(customer.customerID)" >Delete</button></td>
+       <td><button class="btn btn-success my-2">Edit</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
