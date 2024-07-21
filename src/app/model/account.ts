@@ -7,8 +7,12 @@ export class Account{
     accountNumber: number | undefined;
     balance: number | undefined;
     creationDate: Date | undefined;
-    // accountType: AccountType | undefined;
+    accountType: AccountType | undefined;
     isClosed: Boolean | undefined;
     raisonMssg: string | undefined;
     
 }
+ enum AccountType{
+    current,
+    saving
+ }

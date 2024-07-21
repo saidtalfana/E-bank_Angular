@@ -1,17 +1,24 @@
 <div class="body signUp">
     <h2 class="text-center">Create Account</h2>
 
-    <form>
-   <input  formControlName="name" type="text" class="form-controle mb-3 row" placeholder="enter your name" />
-   <input  formControlName="username" type="text" class="form-controle mb-3 row" placeholder="enter your user name" />
-   <input  formControlName="password" type="password" class="form-controle mb-3 row" placeholder="enter your password" />
-   <input  formControlName="email" type="email" class="form-controle mb-3 row" placeholder="enter your email" />
-   <input  formControlName="date" type="date" class="form-controle mb-3 row" placeholder="enter your date" />
-   <input  formControlName="adress" type="text" class="form-controle mb-3 row" placeholder="enter your adress" />
+    <form  [formGroup]="cAccountForm" (ngSubmit)="createAccount()">
+   <!-- <input  formControlName="accountName" type="text" class="form-controle mb-3 row" placeholder="enter account Name" />
+   <input  formControlName="accountNumber" type="number" class="form-controle mb-3 row" placeholder="enter accountNumber" />
+   <input  formControlName="balance" type="number" class="form-controle mb-3 row" placeholder="enter balance" />
+   <input  formControlName="creationDate" type="date" class="form-controle mb-3 row" placeholder="creationDate" /> -->
+   <!-- <input  formControlName="accountType" type="AccountType" class="form-controle mb-3 row" placeholder="enter your accountType" /> -->
+   <select id="" formControlName="accountType" name="AccountType"  class="form-controle" required>
+<option value="current">current</option>
+<option value="saving">saving</option>
+   </select><br>
+   <!-- <input  formControlName="isClosed" type="" class="form-controle mb-3 row" placeholder="isClosed" />
+   <select id="" formControlName="isClosed" name="IsClosed" class="form-controle" required>
+    <option value="true">true</option>
+    <option value="false">false</option>
+       </select>
+   <input  formControlName="raisonMssg" type="text" class="form-controle mb-3 row" placeholder="enter raisonMssg" /> -->
 
-  <button class="btn btn-primary" >Sign up</button>
+  <button class="btn btn-primary" >valider</button>
 
 </form>
-<div class="ms"><a routerLink="/signin">I have account .</a></div>
-
 </div>
