@@ -1,8 +1,30 @@
 .login{
-    color: #fff;
-  }
-  .login a{
-    color: #d39e00;
-    font-weight: 600;
-    text-decoration: none;
-  }
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 420px;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+}
+form{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+input{
+  width: 250px;
+  
+}
+.ms{
+  color: black;
+  margin-bottom: 20px;
+}
+.ms:hover{
+  color: blue;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+}

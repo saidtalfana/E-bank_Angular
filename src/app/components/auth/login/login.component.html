@@ -1,0 +1,12 @@
+<div class="body login">
+    <h2 class="text-center">Login</h2>
+    <form [formGroup]="loginForm" (ngSubmit)="login()">
+   <input  formControlName="username" type="text" class="form-controle mb-3 row" placeholder="enter your user name" />
+   <input formControlName="password"  name="password" type="password" class="form-controle mb-3 row" placeholder="enter your password" required/>
+
+  <button class="btn btn-primary" >login</button>
+    </form>
+
+      <div class="ms"><a routerLink="/signup">I don't have account yet</a></div>
+
+</div>

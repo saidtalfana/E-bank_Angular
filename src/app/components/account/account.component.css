@@ -1,6 +1,36 @@
-.signUp{
-    /* background-color: aqua; */
-width: 445px;   
-margin-left: 49px; 
 
+
+
+ul{
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: beige; */
+}
+
+
+li{
+
+    padding: 7px 14px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+
+
+}
+
+
+ul li,a{
+    text-decoration: none;
+    list-style:none;
+    color: black;
+}
+
+ul li :hover{
+   color: blue;
 }

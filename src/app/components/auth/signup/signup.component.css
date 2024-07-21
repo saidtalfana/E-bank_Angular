@@ -1,0 +1,27 @@
+.signUp{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 420px;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+
+form{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+input{
+    width: 250px;
+    }.ms:hover{
+    color: blue;
+    cursor: pointer;
+  }
+  a{
+    text-decoration: none;
+  }
+.ms{
+    margin-bottom: 20px;
+}
