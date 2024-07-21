@@ -16,6 +16,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { CreateAccountComponent } from './components/account/create-account/create-account.component';
 import { ShowInformationComponent } from './components/account/show-information/show-information.component';
 import { UpdateAccountComponent } from './components/account/update-account/update-account.component';
+import { CardComponent } from './components/card/card.component';
+import { BlockAccountComponent } from './components/account/block-account/block-account.component';
 
 
 @NgModule({
@@ -31,6 +33,8 @@ import { UpdateAccountComponent } from './components/account/update-account/upda
     CreateAccountComponent,
     ShowInformationComponent,
     UpdateAccountComponent,
+    CardComponent,
+    BlockAccountComponent,
    
 
   ],
