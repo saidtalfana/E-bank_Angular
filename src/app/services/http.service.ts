@@ -54,5 +54,10 @@ deleteUser(id: number){
 addAccount(account : Account,id:number){
   return this.http.post<Account>(`${this.url + 'save_account'}/${id}`+ account,id)
 }
+// :::::::::::::::::::::::::::Card::::::::::::::::::::::::::::::::::::::::::::::::
+
+fetchCard(){
+  return this.http.get<Card>(this.url + 'show_all_customer')
+}
 
 }

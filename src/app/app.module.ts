@@ -16,11 +16,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { CreateAccountComponent } from './components/account/create-account/create-account.component';
 import { ShowInformationComponent } from './components/account/show-information/show-information.component';
 import { UpdateAccountComponent } from './components/account/update-account/update-account.component';
-<<<<<<< HEAD
 import { CardComponent } from './components/card/card.component';
 import { BlockAccountComponent } from './components/account/block-account/block-account.component';
-=======
->>>>>>> e47c297 (third commit)
 
 
 @NgModule({
@@ -36,11 +33,8 @@ import { BlockAccountComponent } from './components/account/block-account/block-
     CreateAccountComponent,
     ShowInformationComponent,
     UpdateAccountComponent,
-<<<<<<< HEAD
     CardComponent,
     BlockAccountComponent,
-=======
->>>>>>> e47c297 (third commit)
    
 
   ],

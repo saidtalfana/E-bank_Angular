@@ -37,7 +37,7 @@ constructor(private fb:FormBuilder,private httpService:HttpService,private httpC
   login(){
    
     this.httpService.fetchCustomer().subscribe((res:any)=>{
-      localStorage.setItem('token',res.token)
+      localStorage.setItem('token',res)
       console.log(res.token);
       if(res.token===undefined){
         alert('jwt is null')
@@ -48,11 +48,7 @@ constructor(private fb:FormBuilder,private httpService:HttpService,private httpC
       if(user){
         alert('you are logged successfully');
         this.loginForm.reset();
-<<<<<<< HEAD
         this.router.navigate(['account'])
-=======
-        this.router.navigate(['dashboard'])
->>>>>>> e47c297 (third commit)
       }else{
         alert('user not found')
       }

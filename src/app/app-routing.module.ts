@@ -8,7 +8,6 @@ import { NavComponent } from './components/nav/nav.component';
 import { AccountComponent } from './components/account/account.component';
 import { CreateAccountComponent } from './components/account/create-account/create-account.component';
 import { ShowInformationComponent } from './components/account/show-information/show-information.component';
-<<<<<<< HEAD
 import { UpdateAccountComponent } from './components/account/update-account/update-account.component';
 import { BlockAccountComponent } from './components/account/block-account/block-account.component';
 import { CardComponent } from './components/card/card.component';
@@ -19,12 +18,6 @@ const routes: Routes = [
   {path :'blockaccount', component:BlockAccountComponent},
   { path: 'account', component: AccountComponent },
   { path: 'createaccount', component: CreateAccountComponent },
-=======
-
-const routes: Routes = [
-  { path: 'account', component: AccountComponent },
-  { path: 'createAcocount', component: CreateAccountComponent },
->>>>>>> e47c297 (third commit)
   { path: 'showinformation', component: ShowInformationComponent },
   { path: 'signup', component: SignupComponent },
   { path: 'login', component: LoginComponent },
