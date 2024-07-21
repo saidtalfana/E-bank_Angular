@@ -1,6 +1,7 @@
 <div class="body signUp">
     <h2 class="text-center">Create Account</h2>
 
+<<<<<<< HEAD
     <form  [formGroup]="cAccountForm" (ngSubmit)="createAccount()">
    <!-- <input  formControlName="accountName" type="text" class="form-controle mb-3 row" placeholder="enter account Name" />
    <input  formControlName="accountNumber" type="number" class="form-controle mb-3 row" placeholder="enter accountNumber" />
@@ -22,3 +23,19 @@
 
 </form>
 </div>
+=======
+    <form>
+   <input  formControlName="name" type="text" class="form-controle mb-3 row" placeholder="enter your name" />
+   <input  formControlName="username" type="text" class="form-controle mb-3 row" placeholder="enter your user name" />
+   <input  formControlName="password" type="password" class="form-controle mb-3 row" placeholder="enter your password" />
+   <input  formControlName="email" type="email" class="form-controle mb-3 row" placeholder="enter your email" />
+   <input  formControlName="date" type="date" class="form-controle mb-3 row" placeholder="enter your date" />
+   <input  formControlName="adress" type="text" class="form-controle mb-3 row" placeholder="enter your adress" />
+
+  <button class="btn btn-primary" >Sign up</button>
+
+</form>
+<div class="ms"><a routerLink="/signin">I have account .</a></div>
+
+</div>
+>>>>>>> e47c297 (third commit)

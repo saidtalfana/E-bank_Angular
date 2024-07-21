@@ -1,28 +1,58 @@
 .login{
   margin-top: 25px;
   margin-bottom: 25px;
+<<<<<<< HEAD
+  margin-left: 45px;
+=======
+>>>>>>> e47c297 (third commit)
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 420px;
   align-items: center;
+<<<<<<< HEAD
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 12px;
+  border-bottom: 8px solid rgb(255, 255, 255);
+  background-color: rgb(213, 215, 214);
+
+=======
   background-color: rgb(255, 255, 255);
   border: 1px solid black;
+>>>>>>> e47c297 (third commit)
 }
 form{
   margin-bottom: 20px;
   margin-top: 20px;
 }
+<<<<<<< HEAD
+h2{
+  color: rgb(10, 7, 7);
+}
+=======
+>>>>>>> e47c297 (third commit)
 input{
   width: 250px;
   
 }
+<<<<<<< HEAD
+.ms a{
+  color: rgb(8, 8, 8);
+  margin-bottom: 20px;
+}.ms {
+  /* color: rgb(255, 255, 255); */
+  margin-bottom: 20px;
+}
+.ms a:hover{
+  color: #2601fb;
+=======
 .ms{
   color: black;
   margin-bottom: 20px;
 }
 .ms:hover{
   color: blue;
+>>>>>>> e47c297 (third commit)
   cursor: pointer;
 }
 a{
